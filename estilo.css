@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .icons {
+    display: flex;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
+  }
+
+  .icon::after {
+    content: "";
+    width: 2px; 
+    height: 50px; 
+    background-color: #797676; 
+    margin-left: 15px; 
+  }
+
+  .icon:last-child::after {
+    content: none;
+  }
+
+  .icon span {
+    font-size: 20; 
+  }
+  h2{
+    text-align: center;
+
+  }
